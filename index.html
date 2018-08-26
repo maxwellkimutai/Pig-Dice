@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pig Dice</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+          <div class="users">
+            <div class="message">
+              <p class="header">Pig Dice</p>
+              <p>Enter the names of two users who will play the game and click on the button to start.</p>
+            </div>
+            <form id="players">
+              <div class="form-group">
+                <label for="player1">Player 1</label>
+                <input type="text" name="" id="player1-input" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <label for="player2">Player 2</label>
+                <input type="text" name="" id="player2-input" class="form-control">
+              </div>
+
+              <input type="submit" name="" value="Start" class="btn btn-default" id="start">
+
+            </form>
+          </div>
+
+          <div class="game">
+            <div class="col-md-6">
+              <div class="player-panel">
+                <h2 id="player1-name">Player 1</h2>
+                <p id="player1-score" class="player-score">0</p>
+                <div class="rolled">
+                  <p>Round Total</p>
+                  <span id="player1-rolled-value"></span>
+                </div>
+                <button id="player1-roll" class="btn btn-default">Roll</button>
+                <button id="player1-hold" class="btn btn-default">Hold</button>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="player-panel">
+                <h2 id="player2-name">Player 2</h2>
+                <p id="player2-score" class="player-score">0</p>
+                <div class="rolled">
+                  <p>Round Total:</p>
+                  <span id="player2-rolled-value"></span>
+                </div>
+                <button id="player2-roll" class="btn btn-default">Roll</button>
+                <button id="player2-hold" class="btn btn-default">Hold</button>
+              </div>
+
+
+            </div>
+
+          </div>
+      </div>
+
+    </div>
+  </body>
+</html>
