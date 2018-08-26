@@ -15,3 +15,54 @@ body {
   border-radius: 17px 17px;
   padding: 20px;
 }
+.game {
+  margin-top: 100px;
+  position: relative;
+  left: 25%;
+  display: none;
+  height: 100%;
+  width: 50%;
+}
+.player-panel {
+  text-align: center;
+  background: #fffff2;
+  border-radius: 17px 17px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+.player-score {
+  font-size: 150px;
+}
+#start{
+  position: relative;
+  left: 45%;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+#player1-roll,#player2-roll{
+  background-color: #4BBB4E;
+  color: #fff;
+}
+#player1-hold, #player2-hold{
+  background-color: #C83333;
+  color: #fff;
+}
+.message {
+  text-align: center;
+}
+.header {
+  font-size: 40px;
+}
+.rolled {
+  position: relative;
+  left: 40%;
+  width: 50px;
+  margin-bottom: 10px;
+}
+@keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
