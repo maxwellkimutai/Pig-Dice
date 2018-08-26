@@ -25,7 +25,7 @@ The program ends the game when one player get's to 100
 * Example output: player 1 is the winner
 
 ## Setup/Installation Requirements
-* https://github.com/maxwellkimutai/quiz-project
+* https://github.com/maxwellkimutai/Pig-Dice
 * cd quiz-project
 * atom
 * edit
@@ -39,7 +39,7 @@ None
 * jQuery
 * git
 ## Link To gh-pages
-https://maxwellkimutai.github.io/quiz-project/
+https://maxwellkimutai.github.io/Pig-Dice/
 ## Support and contact details
 Contact Maxwell Kimutai on +254713510682
 ### License
